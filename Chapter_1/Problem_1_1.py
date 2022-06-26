@@ -2,7 +2,11 @@
 Get product of all other elements
 
 Given an array of intgers, return a new array such that each 
+<<<<<<< HEAD
 element at index i of the new array is the product of all the 
+=======
+element at index i of the new arry is the product of all the 
+>>>>>>> 9f862abbf596d09129280349b3e313bb70eb8b58
 numbers in the original array except the one at i.
 '''
 from math import prod
@@ -11,6 +15,7 @@ def findprod(lister):
 
     return [int(prod(lister)/lister[i]) for i in range(0,len(lister))]
 
+<<<<<<< HEAD
 '''
 Follow-up: What if you can't use division?
 
@@ -58,3 +63,5 @@ if __name__ == '__main__':
     a = [1,2,3,4,5]
 
     print(products(a))
+=======
+>>>>>>> 9f862abbf596d09129280349b3e313bb70eb8b58
